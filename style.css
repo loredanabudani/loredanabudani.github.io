@@ -1,7 +1,7 @@
 body {
   background-color: ##fcedf6;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #ffbfe2;
+  color: ##fcfafb;
   margin: 0;
   padding: 0;
 }
@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  color: #2c3e50;
+  color: ##010203;
   margin-bottom: 5px;
   font-size: 36px;
   letter-spacing: 1px;
