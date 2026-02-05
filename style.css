@@ -1,10 +1,37 @@
 body {
-  background-color: #fbffe0;
+  background-color: #eef5f1;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #050005;
   margin: 0;
   padding: 0;
 }
+
+
+
+.name {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  color: #040708;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 40px;
+}
+.name::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #eef5f1;
+  margin: 15px auto 0;
+  border-radius: 5px;
+}
+
 
 .container {
   max-width: 900px;
@@ -48,6 +75,19 @@ ul {
 li {
   margin-bottom: 8px;
 }
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  margin-bottom: 40px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
 
 .contact a {
   color: #2980b9;
@@ -73,7 +113,7 @@ li {
 }
 
 .project-card a {
-  color: #e63946;
+  color: #60998b;
   text-decoration: none;
   font-weight: bold;
 }
